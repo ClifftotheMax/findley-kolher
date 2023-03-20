@@ -68,7 +68,7 @@ body {
     position: absolute;
     width: 600px;
     top: 20px;
-    right: 30px;
+    left: 25%;
     box-shadow: 2px 2px;
 }
 
