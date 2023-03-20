@@ -96,3 +96,102 @@
 p {
     margin: 0 0 15px 0px;
 }
+
+
+
+@media screen and (max-width: 1000px) {
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #FF7F50;
+
+}
+
+.logo {
+    position: absolute;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    /* text-shadow: 2px 2px rgba(186, 186, 186, 0.387); */
+    letter-spacing: .05em;
+    font-size: 16px;
+}
+
+.menu {
+    position: absolute;
+    width: 80%;
+    top: 70px;
+}
+
+.menu ul {
+    position: relative;
+    list-style-type: none;
+}
+
+.menu ul li {
+    display: inline;
+}
+
+.menu ul li a {
+    display: inline-block;
+    padding: 5px 10px 5px 10px;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    letter-spacing: .03em;
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.menu ul li a:hover {
+    background-color: #f6e2b9;
+    color: black;
+    border: 10px;
+    border-radius: 50px;
+    box-shadow: 3px 3px gray;
+}
+
+.coupon {
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    top: 60px;
+    background-color: #f6e2b9;
+}
+
+.couponpix {
+    display: none;
+}
+
+.about {
+    position: absolute;
+    width: 80%;
+    padding: 25px 25px 25px 25px;
+    background-color:  #f6e2b9;
+    box-shadow: 2px 2px;
+    border: 20px;
+    border-radius: 20px;
+    top: 120px;
+    right: 20px;
+}
+
+.aboutheader {
+    padding: 0 0 10px 0px;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.abouttext {
+    font-size: 12px;
+    line-height: 1.5em;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    margin: 0 0 15px 0px;
+}
+
+}
