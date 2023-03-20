@@ -7,6 +7,10 @@
     padding: 0;
 }
 
+body {
+    background-color: #FF7F50;
+}
+
 .logo {
     position: absolute;
     font-family: 'Open Sans', sans-serif;
@@ -45,8 +49,8 @@
 }
 
 .menu ul li a:hover {
-    background-color: black;
-    color: white;
+    background-color: #ffffd6;
+    color: black;
     border: 10px;
     border-radius: 50px;
     box-shadow: 3px 3px gray;
@@ -57,7 +61,7 @@
     width: 100%;
     height: 300px;
     top: 100px;
-    background-color: green;
+    background-color: #ffffd6;
 }
 
 .couponpix {
@@ -71,9 +75,9 @@
 
 .about {
     position: absolute;
-    width: 80%;
+    width: 1000px;
     padding: 25px 25px 25px 25px;
-    background-color: rgba(217, 217, 217, 0.161);
+    background-color: #ffffd6;
     box-shadow: 2px 2px;
     border: 20px;
     border-radius: 20px;
@@ -98,6 +102,70 @@ p {
 }
 
 
+.inspiration {
+    position: absolute;
+    width: 1000px;
+    padding: 25px;
+    background-color: #ffffd6;
+    box-shadow: 2px 2px;
+    border: 20px;
+    border-radius: 20px;
+    top: 1100px;
+    left: 30px;    
+}
+
+.inspirationheader {
+    padding: 0 0 10px 0px;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.inspirationtext {
+    font-size: 16px;
+    line-height: 1.5em;
+    font-family: 'Montserrat', sans-serif;
+}
+/* ------------------- SOCIAL ------------------------ */
+.social {
+    position: absolute;
+    display: inline-block;
+    padding: 10px;
+    width: 100%;
+    bottom: -240px;
+    text-align: right;
+    right: 30px;
+
+}
+
+
+.fa {
+    padding: 15px 1px 10px 1px;
+    margin: 5px 3px;
+    font-size: 12px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 2px 2px black;  
+}
+
+.fa-facebook {
+    background-color: #ffffd6;
+    color: #FF7F50;
+    border-radius: 100%;
+}
+
+.fa-linkedin {
+    background-color: #ffffd6;
+    color: #FF7F50;
+    border-radius: 100%;
+}
+
+.fa-instagram {
+    background-color: #ffffd6;
+    color: #FF7F50;
+    border-radius: 100%;
+}
+
 
 @media screen and (max-width: 1000px) {
 
@@ -112,23 +180,29 @@ body {
 
 .logo {
     position: absolute;
+    display: inline;
+    margin: 0px;
+    padding: 0px;
     width: 100%;
     font-family: 'Open Sans', sans-serif;
     color: black;
     /* text-shadow: 2px 2px rgba(186, 186, 186, 0.387); */
     letter-spacing: .05em;
     font-size: 16px;
+    text-align: center;
+    left: auto; right: auto;
 }
 
 .menu {
     position: absolute;
     width: 80%;
-    top: 70px;
+    top: 90px;
 }
 
 .menu ul {
     position: relative;
     list-style-type: none;
+    text-align: center;
 }
 
 .menu ul li {
@@ -144,10 +218,11 @@ body {
     color: black;
     font-weight: bold;
     font-size: 14px;
+
 }
 
 .menu ul li a:hover {
-    background-color: #f6e2b9;
+    background-color: #ffffd6;
     color: black;
     border: 10px;
     border-radius: 50px;
@@ -158,8 +233,8 @@ body {
     position: absolute;
     width: 100%;
     height: 5px;
-    top: 60px;
-    background-color: #f6e2b9;
+    top: 70px;
+    background-color: #ffffd6;
 }
 
 .couponpix {
@@ -170,18 +245,19 @@ body {
     position: absolute;
     width: 80%;
     padding: 25px 25px 25px 25px;
-    background-color:  #f6e2b9;
+    background-color:  #ffffd6;
     box-shadow: 2px 2px;
     border: 20px;
     border-radius: 20px;
-    top: 120px;
-    right: 20px;
+    top: 140px;
+    align-items: center;
 }
 
 .aboutheader {
     padding: 0 0 10px 0px;
     font-size: 14px;
     font-family: 'Montserrat', sans-serif;
+    text-align: center;
 }
 
 .abouttext {
@@ -192,6 +268,48 @@ body {
 
 p {
     margin: 0 0 15px 0px;
+}
+ 
+
+/* SOCIAL MEDIA */
+
+.social {
+    position: absolute;
+    display: inline-block;
+    padding: 10px;
+    width: 100%;
+    bottom: -200px;
+    
+
+}
+
+
+.fa {
+    padding: 15px 1px 10px 1px;
+    margin: 5px 3px;
+    font-size: 12px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 2px 2px black;  
+}
+
+.fa-facebook {
+    background-color: #ffffd6;
+    color: #FF7F50;
+    border-radius: 100%;
+}
+
+.fa-linkedin {
+    background-color: #ffffd6;
+    color: #FF7F50;
+    border-radius: 100%;
+}
+
+.fa-instagram {
+    background-color: #ffffd6;
+    color: #FF7F50;
+    border-radius: 100%;
 }
 
 }
