@@ -141,29 +141,29 @@ p {
 .fa {
     padding: 15px 1px 10px 1px;
     margin: 5px 3px;
-    font-size: 12px;
+    font-size: 18px;
     width: 50px;
     text-align: center;
-    text-decoration: none;
-    box-shadow: 2px 2px black;  
+    text-decoration: none; 
+}
+
+.fa:hover {
+    color: #ffffd6;
+    background-color: #FF7F50;
+    font-size: 250%;
+    box-shadow: none;
 }
 
 .fa-facebook {
-    background-color: #ffffd6;
-    color: #FF7F50;
-    border-radius: 100%;
+    color: #ffffd6;
 }
 
 .fa-linkedin {
-    background-color: #ffffd6;
-    color: #FF7F50;
-    border-radius: 100%;
+    color: #ffffd6;
 }
 
 .fa-instagram {
-    background-color: #ffffd6;
-    color: #FF7F50;
-    border-radius: 100%;
+    color: #ffffd6;
 }
 
 
@@ -269,6 +269,34 @@ body {
 p {
     margin: 0 0 15px 0px;
 }
+
+.inspiration {
+    margin: 0;
+    position: absolute;
+    width: 80%;
+    padding: 25px;
+    background-color: #ffffd6;
+    box-shadow: 2px 2px;
+    border: 20px;
+    border-radius: 20px;
+    top: 1050px;
+    align-items: center; 
+    left: 4%; 
+
+}
+
+.inspirationheader {
+    padding: 0 0 10px 0px;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.inspirationtext {
+    font-size: 12px;
+    line-height: 1.5em;
+    font-family: 'Montserrat', sans-serif;
+}
  
 
 /* SOCIAL MEDIA */
@@ -279,8 +307,6 @@ p {
     padding: 10px;
     width: 100%;
     bottom: -200px;
-    
-
 }
 
 
@@ -291,25 +317,18 @@ p {
     width: 50px;
     text-align: center;
     text-decoration: none;
-    box-shadow: 2px 2px black;  
 }
 
 .fa-facebook {
-    background-color: #ffffd6;
-    color: #FF7F50;
-    border-radius: 100%;
+    color: #ffffd6;
 }
 
 .fa-linkedin {
-    background-color: #ffffd6;
-    color: #FF7F50;
-    border-radius: 100%;
+    color: #ffffd6;
 }
 
 .fa-instagram {
-    background-color: #ffffd6;
-    color: #FF7F50;
-    border-radius: 100%;
+    color: #ffffd6;
 }
 
 }
