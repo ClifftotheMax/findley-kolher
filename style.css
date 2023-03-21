@@ -119,16 +119,27 @@ p {
     margin: 0 0 15px 0px;
 }
 
+.ohiomap {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    z-index: -1;
+    width: 100%;
+    height: 1500px;
+    top: 300px;
+    right: 0px; left: 0px;
+    opacity: 10%;
+}
 
 .inspiration {
     position: absolute;
     width: 1000px;
-    padding: 25px;
+    padding: 25px 25px 25px 25px;
     background-color: #FDF49B;
     box-shadow: 2px 2px;
     border: 20px;
     border-radius: 20px;
-    top: 1100px;
+    top: 1200px;
     right: 30px;    
 }
 
@@ -143,13 +154,40 @@ p {
     line-height: 1.5em;
     font-family: 'Montserrat', sans-serif;
 }
+
+.contactus {
+    position: absolute;
+    margin: 0;
+    width: 80%;
+    padding: 25px;
+    background-color: #FDF49B;
+    box-shadow:  2px 2px;
+    border: 20px;
+    border-radius: 20px;
+    top: 1500px;
+    left: 30px;
+}
+
+.contactusheader {
+    padding: 0 0 10px 0px;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.contactustext {
+    font-size: 16px;
+    line-height: 1.5em;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
 /* ------------------- SOCIAL ------------------------ */
 .social {
     position: absolute;
     display: inline-block;
     padding: 10px;
     width: 100%;
-    bottom: -240px;
+    bottom: -740px;
     text-align: right;
     right: 30px;
     font-size: 20px;
@@ -169,34 +207,31 @@ p {
     font-size: 15px;
 }
 .fa:hover {
-    color: #FDF49B;
-    background-color: #669966;
+    color: #7CB078;
     font-size: 250%;
-    box-shadow: none;
 }
 
 .fa-facebook {
-    color: #FDF49B;
+    color: #7CB078;
 }
 
 .fa-linkedin {
-    color: #FDF49B;
+    color: #7CB078;
 }
 
 .fa-instagram {
-    color: #FDF49B;
+    color: #7CB078;
 }
 
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 786px) {
 
 * {
     margin: 0;
     padding: 0;
 }
 body {
-    background-color: #CC9933;
-
+    background-color: white;
 }
 
 .logo {
@@ -255,10 +290,14 @@ body {
     width: 100%;
     height: 5px;
     top: 70px;
-    background-color: #2E4F7D;
+    background-image: linear-gradient(to bottom, #7CB078, #2E4F7D);
 }
 
 .couponpix {
+    display: none;
+}
+
+.seventyfive {
     display: none;
 }
 
@@ -302,7 +341,7 @@ p {
     border-radius: 20px;
     top: 1050px;
     align-items: center; 
-    left: 4%; 
+    left: 7%;
 
 }
 
@@ -318,6 +357,8 @@ p {
     line-height: 1.5em;
     font-family: 'Montserrat', sans-serif;
 }
+
+
  
 
 /* SOCIAL MEDIA */
@@ -341,15 +382,15 @@ p {
 }
 
 .fa-facebook {
-    color: #FDF49B;
+    color: #7CB078;
 }
 
 .fa-linkedin {
-    color: #FDF49B;
+    color: #7CB078;
 }
 
 .fa-instagram {
-    color: #FDF49B;
+    color: #7CB078;
 }
 
 }
