@@ -234,6 +234,18 @@ body {
     background-color: white;
 }
 
+.ohiomap {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    z-index: -1;
+    width: 100%;
+    height: 1100px;
+    top: 300px;
+    right: 0px; left: 0px;
+    opacity: 10%;
+}
+
 .logo {
     position: absolute;
     display: inline;
@@ -358,7 +370,30 @@ p {
     font-family: 'Montserrat', sans-serif;
 }
 
+.contactus {
+    position: absolute;
+    margin: 0;
+    width: 80%;
+    padding: 25px;
+    background-color: #FDF49B;
+    box-shadow:  2px 2px;
+    border: 20px;
+    border-radius: 20px;
+    top: 1200px;
+    left: 30px;
+}
 
+.contactusheader {
+    padding: 0 0 10px 0px;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.contactustext {
+    font-size: 12px;
+    line-height: 1.5em;
+    font-family: 'Montserrat', sans-serif;
+}
  
 
 /* SOCIAL MEDIA */
@@ -368,7 +403,8 @@ p {
     display: inline-block;
     padding: 10px;
     width: 100%;
-    bottom: -200px;
+    bottom: -350px;
+    right: 20px;
 }
 
 
@@ -376,7 +412,6 @@ p {
     padding: 15px 1px 10px 1px;
     margin: 5px 3px;
     font-size: 12px;
-    width: 50px;
     text-align: center;
     text-decoration: none;
 }
