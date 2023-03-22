@@ -133,7 +133,7 @@ p {
 
 .inspiration {
     position: absolute;
-    width: 1000px;
+    width: 400px;
     padding: 25px 25px 25px 25px;
     background-color: #FDF49B;
     box-shadow: 2px 2px;
@@ -146,14 +146,75 @@ p {
 .inspirationheader {
     padding: 0 0 10px 0px;
     font-size: 25px;
+    text-align: center;
     font-family: 'Montserrat', sans-serif;
 }
 
-.inspirationtext {
+.inspirationtext-01 {
     font-size: 16px;
     line-height: 1.5em;
     font-family: 'Montserrat', sans-serif;
+    text-align: center;   
 }
+
+.inspirationtext-02 {
+    position: absolute;
+    width: 400px;
+    padding: 25px 25px 25px 25px;
+    background-color: #FDF49B;
+    box-shadow: 2px 2px;
+    border: 20px;
+    border-radius: 20px;
+    top: 1880px;
+    right: 30px; 
+    font-size: 16px;
+    line-height: 1.5em;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;   
+}
+
+.inspirationtext-03 {
+    position: absolute;
+    width: 400px;
+    padding: 25px 25px 25px 25px;
+    background-color: #FDF49B;
+    box-shadow: 2px 2px;
+    border: 20px;
+    border-radius: 20px;
+    top: 2570px;
+    right: 30px; 
+    font-size: 16px;
+    line-height: 1.5em;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;   
+}
+
+
+.images-01 {
+    position: absolute;
+    top: 1200px;
+    left: 10%;
+}
+.fabricimage {
+    width: 200px;
+    border: 1px solid #ddd;
+    border-radius: 5%;
+    padding: 5px;
+    background-color: white;
+    box-shadow: 3px 3px black;
+}
+
+.row-01, .row-02, .row-03, .row-04, .row-05, .row-06, .row-07, .row-08 {
+    display: flex;
+    justify-content: center;
+}
+
+.column-01, .column-02, .column-03, .column-04, .column-05, .column-06, .column-07, .column-08 {
+    padding: 5px;
+  
+   
+}
+
 
 .contactus {
     position: absolute;
@@ -164,7 +225,7 @@ p {
     box-shadow:  2px 2px;
     border: 20px;
     border-radius: 20px;
-    top: 1500px;
+    top: 3250px;
     left: 30px;
 }
 
@@ -187,7 +248,7 @@ p {
     display: inline-block;
     padding: 10px;
     width: 100%;
-    bottom: -740px;
+    bottom: -2450px;
     text-align: right;
     right: 30px;
     font-size: 20px;
@@ -224,7 +285,7 @@ p {
 }
 
 
-@media screen and (max-width: 786px) {
+@media screen and (max-width: 1000px) {
 
 * {
     margin: 0;
