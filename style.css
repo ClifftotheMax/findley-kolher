@@ -333,7 +333,7 @@ body {
 .menu {
     position: absolute;
     text-align: center;
-    right: 0px; left: 0pc;
+    right: 0px; left: 0px;
     top: 90px;
 }
 
@@ -390,6 +390,7 @@ body {
     box-shadow: 2px 2px;
     border: 20px;
     border-radius: 20px;
+    left: 10px; right: 0px;
     top: 140px;
     align-items: center;
 }
